@@ -1,7 +1,10 @@
 # Default values for starter-kit-chart.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-global: {}
+global: {
+  cloudantBinding="binding-mooc-cpat-ocp01-appid"
+  databaseName="inventory-dev-mo"
+}
 
 replicaCount: 1
 logLevel: "INFO"
