@@ -40,7 +40,7 @@ public class StockItemService implements StockItemApi {
                     .getDocsAs(StockItem.class);
 
         } catch (IOException e) {
-            throw new Exception("", e);
+            e.printStackTrace();
         }
     }
 }
