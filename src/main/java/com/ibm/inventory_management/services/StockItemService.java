@@ -41,6 +41,7 @@ public class StockItemService implements StockItemApi {
 
         } catch (IOException e) {
             e.printStackTrace();
+            return null;
         }
     }
 }
