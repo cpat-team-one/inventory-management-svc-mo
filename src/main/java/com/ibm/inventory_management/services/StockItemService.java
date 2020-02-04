@@ -30,7 +30,7 @@ public class StockItemService implements StockItemApi {
     }
 
     @Override
-    public List<StockItem> listStockItems() throws Exception {
+    public List<StockItem> listStockItems() {
 
         try {
             return db.getAllDocsRequestBuilder()
